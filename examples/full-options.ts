@@ -15,7 +15,7 @@ const eAgents = vllmInit({
     // OpenAI 표준 옵션
     messages: [                       // 보통은 eAgents.reflection(message) 호출 시 전달
         { role: "system", content: "너는 친절한 한국어 어시스턴트야." },
-        { role: "user", content: "안녕!", name: "tester" },
+        { role: "user", content: "안녕!" },
     ],
     temperature: 0.7,
     topP: 0.8,
