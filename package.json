@@ -1,7 +1,7 @@
 {
   "name": "easyagents",
   "version": "1.0.0",
-  "description": "",
+  "description": "```\r npm init -y\r npm i -D typescript @types/node\r ```",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,5 +21,11 @@
   "devDependencies": {
     "@types/node": "^26.6.6",
     "typescript": "^7.0.2"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "undici-types": "^8.9.0"
   }
 }
